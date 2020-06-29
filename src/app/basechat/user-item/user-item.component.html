@@ -1,0 +1,7 @@
+<div class="userItem" *ngIf="user.email!=user.currentuser">
+    <span class="status" [ngClass]=(user.status)>
+    </span>
+    <span class="userName">
+      {{user.fullName}}
+    </span>
+  </div>
